@@ -1,0 +1,311 @@
+/* Css reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 800px;
+}
+/* Mobile website   */
+@media screen and (max-width:540px){
+    .main{
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        width: 100%;
+        height: 180px;
+        /* border: 2px dashed black; */
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: fit-content;
+        height: fit-content;
+        /* border: 1px solid green; */
+        margin: auto;
+        margin-top: 15px;
+    }
+    .logo img{
+        width: 98px;
+        height: 80px;
+    }
+    .harmburger{
+        width: 100%;
+        height: 60px;
+        background-color:#037cc5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .harmburger img {
+        width: 80px;
+        height: 70px;
+        margin-right: 15px;
+        filter: invert(100%);
+    }
+    /* header end  */
+
+
+    /* slider start  */
+    .slider{
+        width: 100%;
+        height: 500px;
+        /* border: 2px dashed gold; */
+        background-image: url("../Images/pexels-agung-pandit-wiguna-3401403.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider h1{
+        font-size: 53px;
+        /* color: rgb(255, 255, 255); */
+        color: #ffffff;
+        margin: 0 15px 0 15px;
+        font-weight: bolder;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 1px black;
+    }
+    .slider p{
+        font-size: 36px;
+        margin: 10px 15px 0 15px;
+        color: rgb(255, 166, 0);
+        text-shadow: 2px 2px 1px black;
+    }
+    .slider .btn{
+        padding: 10px 29px;
+        margin-top: 10px;
+        background-color: brown;
+        color: #fff;
+        border: none;
+    }
+    /* slider end  */
+
+    /* About school section start  */
+    .aboutSchool{
+        width: 100%;
+        height: fit-content;
+        /* border: 3px dashed rgb(0, 0, 0); */
+    }
+    .aboutSchoolcol1{
+        width: 100%;
+        height: fit-content;
+        margin-top: 70px;
+    }
+    .aboutSchoolcol1 h4{
+        font-size: 24px;
+        margin:0 15px 0 15px;
+        color: #d72517;
+    }
+    .aboutSchoolcol1 .para{
+        font-size: 16px;
+        margin: 10px 15px 0 15px;
+        line-height: 30px;
+    }
+    .aboutSchoolcol1 .btn{
+        width: 90px;
+        height: 22px;
+        margin: 10px 0 10px 15px;
+        border: none;
+        background-color: #037cc5;
+        color: #fff;
+    }
+    .aboutSchoolcol2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .aboutSchoolcol2 img{
+        width: 90%;
+        height: auto;
+        margin: 0 15px 0 15px;
+    }
+    /* about School section end  */
+
+    /* our management section start  */
+    .ourManagement{
+        width: 100%;
+        height:fit-content;
+        margin-top: 70px;
+    }
+    .ourManagement h4{
+        color: #d72517;
+        font-size: 22px;
+        margin: 0 15px 0 15px;
+    }
+    .directorCol{
+        width: 200px;
+        height: fit-content;
+        margin: 20px auto;
+        position: relative;
+    }
+    .directorCol img{
+        width: 98%;
+        height: 140px;
+        border-radius: 22px;
+        display: block;
+        margin: auto;
+    }
+    .aboutDirector{
+        width: 90%;
+        height: 110px;
+        background-color: rgb(235, 235, 235);
+        margin: 10px auto;
+        border-bottom: 3px solid #d72517;
+    }
+    .aboutDirector h5{
+      font-size: 16px;
+      color: #d72517;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .aboutDirector p{
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        font-size: 13px;
+    }
+    .aboutDirector .btn{
+        padding: 8px 40px;
+        background-color: #037cc5;
+        color: #fff;
+        border: none;
+        font-size: 13px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .ManagerCol{
+        width: 200px;
+        height: fit-content;
+        margin: 30px auto;
+        position: relative;
+    }
+    .ManagerCol img{
+        width: 98%;
+        height: 140px;
+        border-radius: 22px;
+        display: block;
+        margin: auto;
+    }
+    .aboutManager{
+        width: 90%;
+        height: 110px;
+        background-color: rgb(235, 235, 235);
+        margin: 10px auto;
+        border-bottom: 3px solid #d72517;
+    }
+    .aboutManager h5{
+      font-size: 16px;
+      color: #d72517;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .aboutManager p{
+        text-align: center;
+        padding-top: 10px;
+        color: black;
+        font-size: 13px;
+    }
+    .aboutManager .btn{
+        padding: 8px 40px;
+        background-color: #037cc5;
+        color: #fff;
+        border: none;
+        font-size: 13px;
+        margin: 10px auto;
+        display: block;
+    }
+    /* our management section end  */
+
+
+    /* why choose us section  */
+    .whyChooseUs{
+        width: 100%;
+        height: fit-content;
+        margin-top: 70px;
+    }
+    .whyChooseUs h4{
+        font-size: 22px;
+        color: #d72517;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .whyChooseUs p{
+        text-align: center;
+        margin: 10px 15px 0 15px;
+        line-height: 30px;
+    }
+    .feeStructure{
+        width: 50%;
+        height: 150px;
+        border: 4px solid rgb(189, 189, 189);
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;       
+    }
+    .feeStructure img{
+        width: 60px;
+        height: 50px;
+        /* filter: invert(100%); */
+    }
+    .feeStructure .btn{
+        padding: 8px 30px;
+        background-color: #d72517;
+        color: #ffffff;
+        border: none;
+        display: block;
+        margin: 10px 0;
+        border-radius: 27px;
+    }
+
+    .schoolTiming{
+        width: 50%;
+        height: 150px;
+        border: 4px solid rgb(189, 189, 189);
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        /* background-color: #037cc5; */
+        /* background-image: url("../Images/pexels-artem-beliaikin-1153976.jpg"); */
+        /* background-size: cover; */
+        box-shadow: 2px 2px 1px rgb(252, 251, 251);       
+    }
+    .schoolTiming img{
+        width: 60px;
+        height: 50px;
+        filter: invert(100%);
+    }
+    .schoolTiming .btn{
+        padding: 8px 30px;
+        background-color: #d72517;
+        color:#ffffff;
+        border: none;
+        display: block;
+        margin: 10px 0;
+        border-radius: 27px;
+    }
+    /* why choose us section end  */
+
+    /* footer start   */
+    footer{
+        width: 100%;
+        height: 300px;
+        /* background-color: #d72517; */
+        border-top: 4px solid red;
+        margin-top: 70px;
+    }
+}
+
+.primarycolor{
+    color: #d72517;
+    color: #037cc5;
+}
